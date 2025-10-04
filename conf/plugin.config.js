@@ -4,18 +4,18 @@
  * @LastModifiedBy: ywyz
  * @Github: https://github.com/ywyz
  * @LastEditors: ywyz
- * @LastEditTime: 2025-10-04 10:05:45
+ * @LastEditTime: 2025-10-04 10:52:44
  */
 /**
  * 一些插件
  */
 module.exports = {
   // 网站全文搜索
-  ALGOLIA_APP_ID: process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || null, // 在这里查看 https://dashboard.algolia.com/account/api-keys/
-  ALGOLIA_ADMIN_APP_KEY: process.env.ALGOLIA_ADMIN_APP_KEY || null, // 管理后台的KEY，不要暴露在代码中，在这里查看 https://dashboard.algolia.com/account/api-keys/
+  ALGOLIA_APP_ID: process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '5E0DN5V4JK', // 在这里查看 https://dashboard.algolia.com/account/api-keys/
+  ALGOLIA_ADMIN_APP_KEY: process.env.ALGOLIA_ADMIN_APP_KEY || '6e7b5430dab683fb59ff297b7f4d826b', // 管理后台的KEY，不要暴露在代码中，在这里查看 https://dashboard.algolia.com/account/api-keys/
   ALGOLIA_SEARCH_ONLY_APP_KEY:
-    process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_ONLY_APP_KEY || null, // 客户端搜索用的KEY
-  ALGOLIA_INDEX: process.env.NEXT_PUBLIC_ALGOLIA_INDEX || null, // 在Algolia中创建一个index用作数据库
+    process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_ONLY_APP_KEY || 'ab5daa49097f96508f3bfa3378ddd7f8', // 客户端搜索用的KEY
+  ALGOLIA_INDEX: process.env.NEXT_PUBLIC_ALGOLIA_INDEX || 'ywyz', // 在Algolia中创建一个index用作数据库
 
   // AI 文章摘要生成
 
