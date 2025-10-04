@@ -1,3 +1,11 @@
+/*
+ * @Date: 2025-10-03 17:01:15
+ * @Author: ywyz
+ * @LastModifiedBy: ywyz
+ * @Github: https://github.com/ywyz
+ * @LastEditors: ywyz
+ * @LastEditTime: 2025-10-04 09:42:35
+ */
 /**
  * 社交按钮相关的配置同意放这
  */
@@ -8,7 +16,7 @@ module.exports = {
       btoa(
         unescape(encodeURIComponent(process.env.NEXT_PUBLIC_CONTACT_EMAIL))
       )) ||
-    '', // 邮箱地址 例如mail@tangly1024.com
+    'admin@ywyz.tech', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || 'ywyz', // 你的微博个人主页
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || '', // 你的twitter个人主页
   CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/ywyz', // 你的github个人主页 例如 https://github.com/tangly1024
